@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>navbar</title>
+    <style>
+        .navbar {
+            background-color: rgb(224, 223, 223);
+        }
+    </style>
+    
+    
+</head>
+
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        
+        <a class="d-flex  navbar-brand" href="">
+            <img class="ms-2 mt-2" src="../image/1.jpg" height="20">
+           
+        </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="../home/home.php" id="navbarDropdown" role="button"
+                           aria-expanded="false">Home
+                        </a>
+                        
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                           Absences
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../Absence/formulaire3.php">Par Jour</a></li>
+                            <li><a class="dropdown-item" href="../Absence/formulaire.php">Par Etudiant</a></li>
+                            <li><a class="dropdown-item" href="../Absence/formulaire2.php">Par Matiere</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="../Etudiant/Ajouter_etudiant.php" id="navbarDropdown" role="button"
+                           aria-expanded="false">Etudiant
+                        </a>
+                        
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link "  href="../Enseignant/Ajouter enseignant.php" id="navbarDropdown" role="button"
+                           aria-expanded="false">Enseignant
+                        </a>
+                        
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link "  href="deconnexion.php" id="navbarDropdown" role="button"
+                           aria-expanded="false">Deconnexion
+                        </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
